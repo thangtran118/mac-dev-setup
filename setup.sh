@@ -14,11 +14,11 @@ clear
 e_message "Starting mac-dev-setup"
 # ------------------------------------------------------------------------------
 
-# source partials/prepare.sh
-# source partials/system-customize.sh
-# source partials/app.sh
+source partials/prepare.sh
+source partials/system-customize.sh
+source partials/app.sh
 source partials/zsh.sh
-# source partials/node.sh
+source partials/node.sh
 
 # ------------------------------------------------------------------------------
 printf "\n"

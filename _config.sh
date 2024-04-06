@@ -17,18 +17,17 @@ BREW_CASK=(
     # --- Productivity ---
     1password
     # rectangle
-    # microsoft-word
-    # microsoft-excel
-    # microsoft-powerpoint
+    microsoft-word
+    microsoft-excel
+    microsoft-powerpoint
 
     # --- Development ---
     visual-studio-code
     jetbrains-toolbox
     # figma
-    # postman
+    postman
     iterm2
-    # sublime-text
-    # nvm
+    sublime-text
 
     # --- Browser ---
     # brave-browser
