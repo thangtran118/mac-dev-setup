@@ -17,9 +17,9 @@ BREW_CASK=(
     # --- Productivity ---
     1password
     # rectangle
-    microsoft-word
-    microsoft-excel
-    microsoft-powerpoint
+    # microsoft-word
+    # microsoft-excel
+    # microsoft-powerpoint
 
     # --- Development ---
     visual-studio-code
@@ -27,7 +27,7 @@ BREW_CASK=(
     # figma
     postman
     iterm2
-    sublime-text
+    # sublime-text
 
     # --- Browser ---
     # brave-browser
@@ -47,13 +47,31 @@ BREW_CASK=(
 )
 
 VSCODE_EXTENSIONS=(
-    formulahendry.auto-rename-tag
-    formulahendry.auto-close-tag
-    github.copilot
-    github.copilot-chat
-    editorconfig.editorconfig
-    eamodio.gitlens
+    aaron-bond.better-comments
+    adpyke.codesnap
+    christian-kohler.path-intellisense
     dbaeumer.vscode-eslint
+    # eamodio.gitlens
+    editorconfig.editorconfig
     esbenp.prettier-vscode
-    ms-azuretools.vscode-docker
+    formulahendry.auto-close-tag
+    formulahendry.auto-rename-tag
+    foxundermoon.shell-format
+    # github.copilot
+    # github.copilot-chat
+    jock.svg
+    # ms-azuretools.vscode-docker
+    ms-python.python
+    ms-vscode-remote.remote-ssh
+    ms-vscode-remote.remote-ssh-edit
+    ms-vscode.cpptools
+    ms-vscode.cpptools-extension-pack
+    ms-vscode.cpptools-themes
+    pkief.material-icon-theme
+    ritwickdey.liveserver
+    visualstudioexptteam.intellicode-api-usage-examples
+    visualstudioexptteam.vscodeintellicode
+    vue.volar
+    wakatime.vscode-wakatime
+    # xabikos.javascriptsnippets
 )
