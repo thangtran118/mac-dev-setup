@@ -17,7 +17,6 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 '
-
     if ! grep -q 'export PATH="$HOME/.pyenv/bin:$PATH"' "$ZSHRC_FILE"; then
         echo "$PYTHON_CONFIG" >> "$ZSHRC_FILE"
         zsh -c "source $ZSHRC_FILE"
