@@ -4,6 +4,9 @@ get_consent "Do you want to install nvm, node, npm, yarn, pnpm"
 if is_consent; then
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # Load nvm
+
     nvm install --lts
     npm install -g npm@latest
     npm install -g yarn
