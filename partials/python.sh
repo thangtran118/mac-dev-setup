@@ -24,7 +24,7 @@ eval "$(pyenv virtualenv-init -)"
         echo "Các dòng cấu hình pyenv đã tồn tại trong .zshrc"
     fi
 
-    get_consent("Do you want install latest python version?")
+    get_consent "Do you want install latest python version?"
     if is_consent; then
         # install python latest:
         latest_version=$(pyenv install --list | grep --extended-regexp "^\s*[0-9][0-9.]*[0-9]\s*$" | tail -1 | tr -d ' ')
